@@ -78,96 +78,29 @@ Na prática, as expressões regulares servem para uma infinidade de tarefas. Sã
 
 São metacaracteres cuja função é representar um ou mais caracteres.
 
-<style type="text/css">
-
-.tg {
-  border-collapse:collapse;
-  border-color:#ccc;
-  border-spacing:0;
-  margin-top: 1em;
-}
-.tg td {
-  background-color:#fff;
-  border-color:#ccc;
-  border-style:solid;
-  border-width:1px;
-  color:#333;
-  font-family:Arial, sans-serif;
-  font-size:14px;
-  overflow:hidden;
-  padding:10px 5px;
-  word-break:normal;
-}
-.tg th {
-  background-color:#f0f0f0;
-  border-color:#ccc;
-  border-style:solid;
-  border-width:1px;
-  color:#333;
-  font-family:Arial, sans-serif;
-  font-size:14px;
-  font-weight:normal;
-  overflow:hidden;
-  padding:10px 5px;
-  word-break:normal;
-}
-.tg .tg-096r {
-  color:#000000;
-  text-align:left;
-  vertical-align:top
-}
-.tg .tg-baqh {
-  text-align:center;
-  vertical-align:top
-}
-.tg .tg-buh4 {
-  background-color:#f9f9f9;
-  text-align:left;
-  vertical-align:top
-}
-
-.tg .tg-f8tx {
-  color:#000000;
-  text-align:center;
-  vertical-align:top
-}
-
-.tg .tg-dzk6 {
-  background-color:#f9f9f9;
-  text-align:center;
-  vertical-align:top
-}
-
-.tg .tg-0lax {
-  text-align:left;
-  vertical-align:top
-}
-
-</style>
-
-<table class="tg">
+<table >
   <thead>
     <tr>
-      <th class="tg-f8tx">Metacaractere</th>
-      <th class="tg-096r">Nome</th>
-      <th class="tg-096r">Função</th>
+      <th >Metacaractere</th>
+      <th >Nome</th>
+      <th >Função</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="tg-dzk6">.</td>
-      <td class="tg-buh4">Ponto</td>
-      <td class="tg-buh4">Um caractere qualquer</td>
+      <td >.</td>
+      <td >Ponto</td>
+      <td >Um caractere qualquer</td>
     </tr>
     <tr>
-      <td class="tg-baqh">[...]</td>
-      <td class="tg-0lax">Lista</td>
-      <td class="tg-0lax">Lista de caracteres permitidos</td>
+      <td >[...]</td>
+      <td >Lista</td>
+      <td >Lista de caracteres permitidos</td>
     </tr>
     <tr>
-      <td class="tg-dzk6">[^...]</td>
-      <td class="tg-buh4">Lista negada</td>
-      <td class="tg-buh4">Lista de caracteres proibidos
+      <td >[^...]</td>
+      <td >Lista negada</td>
+      <td >Lista de caracteres proibidos
 </td>
     </tr>
   </tbody>
@@ -240,34 +173,34 @@ Digitar um circunflexo após o colchete de abertura nega a classe de caractere. 
 
 Servem para indicar o número de repetições permitidas para a entidade imediatamente anterior. Entidade pode ser um caractere ou metacaractere.
 
-<table class="tg">
+<table >
   <thead>
     <tr>
-      <th class="tg-f8tx">Metacaractere</th>
-      <th class="tg-096r">Nome</th>
-      <th class="tg-096r">Função</th>
+      <th >Metacaractere</th>
+      <th >Nome</th>
+      <th >Função</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="tg-dzk6">?</td>
-      <td class="tg-buh4">Opcional</td>
-      <td class="tg-buh4">Zero ou um</td>
+      <td >?</td>
+      <td >Opcional</td>
+      <td >Zero ou um</td>
     </tr>
     <tr>
-      <td class="tg-baqh">*</td>
-      <td class="tg-0lax">Asterisco</td>
-      <td class="tg-0lax">Zero, um ou mais</td>
+      <td >*</td>
+      <td >Asterisco</td>
+      <td >Zero, um ou mais</td>
     </tr>
     <tr>
-      <td class="tg-dzk6">+</td>
-      <td class="tg-buh4">Mais</td>
-      <td class="tg-buh4">Um ou mais</td>
+      <td >+</td>
+      <td >Mais</td>
+      <td >Um ou mais</td>
     </tr>
     <tr>
-      <td class="tg-baqh">{n,m}</td>
-      <td class="tg-0lax">Chaves</td>
-      <td class="tg-0lax">De <span style="font-style:italic">n</span> até <span style="font-style:italic">m</td>
+      <td >{n,m}</td>
+      <td >Chaves</td>
+      <td >De n até m</td>
     </tr>
   </tbody>
 </table>
@@ -334,29 +267,29 @@ Estabelecem posições de referência para o casamento do restante da regex.
 > - Quantificadores não tem influência sobre as âncoras.
 > - Metacaracteres do tipo âncora não casam com caracteres no texto, mas sim com posições antes, depois ou entre os caracteres.
 
-<table class="tg">
+<table >
   <thead>
     <tr>
-      <th class="tg-f8tx">Metacaractere</th>
-      <th class="tg-096r">Nome</th>
-      <th class="tg-096r">Função</th>
+      <th >Metacaractere</th>
+      <th >Nome</th>
+      <th >Função</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="tg-dzk6">^</td>
-      <td class="tg-buh4">Circunflexo</td>
-      <td class="tg-buh4">Início da linha</td>
+      <td >^</td>
+      <td >Circunflexo</td>
+      <td >Início da linha</td>
     </tr>
     <tr>
-      <td class="tg-baqh">$</td>
-      <td class="tg-0lax">Cifrão</td>
-      <td class="tg-0lax">Fim da linha</td>
+      <td >$</td>
+      <td >Cifrão</td>
+      <td >Fim da linha</td>
     </tr>
     <tr>
-      <td class="tg-dzk6">\b</td>
-      <td class="tg-buh4">Borda</td>
-      <td class="tg-buh4">Início ou fim de palavra</td>
+      <td >\b</td>
+      <td >Borda</td>
+      <td >Início ou fim de palavra</td>
     </tr>
   </tbody>
 </table>
@@ -399,69 +332,69 @@ const findWord = /\bfeliz\b/g;
 
 São metacaracteres que têm funções específicas e não relacionadas entre si.
 
-<table class="tg">
+<table >
   <thead>
     <tr>
-      <th class="tg-f8tx">Metacaractere</th>
-      <th class="tg-096r">Nome</th>
-      <th class="tg-096r">Função</th>
+      <th >Metacaractere</th>
+      <th >Nome</th>
+      <th >Função</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="tg-dzk6">\*</td>
-      <td class="tg-buh4">Escape</td>
-      <td class="tg-buh4">Torna literal o caractere '*'</td>
+      <td >\*</td>
+      <td >Escape</td>
+      <td >Torna literal o caractere '*'</td>
     </tr>
     <tr>
-      <td class="tg-baqh">x|y</td>
-      <td class="tg-0lax">Ou</td>
-      <td class="tg-0lax">Pesquisa correspondência em 'x' ou 'y'</td>
+      <td >x|y</td>
+      <td >Ou</td>
+      <td >Pesquisa correspondência em 'x' ou 'y'</td>
     </tr>
     <tr>
-      <td class="tg-dzk6">(x)</td>
-      <td class="tg-buh4">Grupo</td>
-      <td class="tg-buh4">Delimita um grupo</td>
+      <td >(x)</td>
+      <td >Grupo</td>
+      <td >Delimita um grupo</td>
     </tr>
     <tr>
-      <td class="tg-baqh">(?:x)</td>
-      <td class="tg-0lax">Non-capturing group</td>
-      <td class="tg-0lax">Não memoriza o texto casado no grupo</td>
+      <td >(?:x)</td>
+      <td >Non-capturing group</td>
+      <td >Não memoriza o texto casado no grupo</td>
     </tr>
     <tr>
-      <td class="tg-dzk6">x (?=y)</td>
-      <td class="tg-buh4">Positive Lookahead</td>
-      <td class="tg-buh4">Pesquisa a correspondência em 'x' apenas se 'x' é seguido por 'y'</td>
+      <td >x (?=y)</td>
+      <td >Positive Lookahead</td>
+      <td >Pesquisa a correspondência em 'x' apenas se 'x' é seguido por 'y'</td>
     </tr>
     <tr>
-      <td class="tg-baqh">x (?!y)</td>
-      <td class="tg-0lax">Negative Lookahead</td>
-      <td class="tg-0lax">Pesquisa a correspondência em 'x' apenas se 'x' não é seguido por 'y'</td>
+      <td >x (?!y)</td>
+      <td >Negative Lookahead</td>
+      <td >Pesquisa a correspondência em 'x' apenas se 'x' não é seguido por 'y'</td>
     </tr>
     <tr>
-      <td class="tg-dzk6">(?&lt;=x) y</td>
-      <td class="tg-buh4">Positive Lookbehind</td>
-      <td class="tg-buh4">Pesquisa a correspondência em 'x' apenas se 'x' é precido por 'y'</td>
+      <td >(?&lt;=x) y</td>
+      <td >Positive Lookbehind</td>
+      <td >Pesquisa a correspondência em 'x' apenas se 'x' é precido por 'y'</td>
     </tr>
     <tr>
-      <td class="tg-baqh">(?&lt;!x) y</td>
-      <td class="tg-0lax">Negative Lookbehind</td>
-      <td class="tg-0lax">Pesquisa a correspondência em 'x' apenas se 'x' não é precido por 'y'</td>
+      <td >(?&lt;!x) y</td>
+      <td >Negative Lookbehind</td>
+      <td >Pesquisa a correspondência em 'x' apenas se 'x' não é precido por 'y'</td>
     </tr>
     <tr>
-      <td class="tg-dzk6">(?&lt;<span style="font-style:italic">name</span>&gt;x)</td>
-      <td class="tg-buh4">Grupo nomeado</td>
-      <td class="tg-buh4">Corresponde a 'x' e armazena-o na prorpriedade <span style="font-style:italic">groups</span> da correspondência retornada com o nome especificado &lt;<span style="font-style:italic">name</span>&gt;</td>
+      <td >(?&lt;name&gt;x)</td>
+      <td >Grupo nomeado</td>
+      <td >Corresponde a 'x' e armazena-o na prorpriedade groups da correspondência retornada com o nome especificado &lt;name&gt;</td>
     </tr>
     <tr>
-      <td class="tg-baqh">\1, \2 ... \9</td>
-      <td class="tg-0lax">Retrovisor</td>
-      <td class="tg-0lax">Texto casado nos grupos 1, 2 ... 9</td>
+      <td >\1, \2 ... \9</td>
+      <td >Retrovisor</td>
+      <td >Texto casado nos grupos 1, 2 ... 9</td>
     </tr>
     <tr>
-      <td class="tg-dzk6">\k&lt;name&gt;</td>
-      <td class="tg-buh4">Retrovisor de grupo nomeado</td>
-      <td class="tg-buh4">Texto casado no grupo '<span style="font-style:italic">name</span>'</td>
+      <td >\k&lt;name&gt;</td>
+      <td >Retrovisor de grupo nomeado</td>
+      <td >Texto casado no grupo 'name'</td>
     </tr>
   </tbody>
 </table>
@@ -535,69 +468,69 @@ Uma referência anterior à última substring que corresponde ao grupo de captur
 
 São átomos representados por uma barra invertida `\` seguida de uma letra qualquer: `\d`, `\w`, `\s`. Dependendo da letra, muda-se o significado desse metacaractere.
 
-<table class="tg">
+<table >
   <thead>
     <tr>
-      <th class="tg-f8tx">Metacaractere</th>
-      <th class="tg-096r">Função</th>
+      <th >Metacaractere</th>
+      <th >Função</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="tg-dzk6">[\b]</td>
-      <td class="tg-buh4">Pesquisa correspondência com espaço em branco. É preciso utilizar os colchetes se você quer encontrar um espaço em branco. (Não confunda-o com \b.)</td>
+      <td >[\b]</td>
+      <td >Pesquisa correspondência com espaço em branco. É preciso utilizar os colchetes se você quer encontrar um espaço em branco. (Não confunda-o com \b.)</td>
     </tr>
     <tr>
-      <td class="tg-baqh">\c<i>X</i></td>
-      <td class="tg-0lax">Onde X é um caractere pertencente ao conjunto A-Z. Encontra correspondência de um caractere de controle em uma string.<br />Por exemplo, /\cM/ encontra correspondente control-M em uma string.</td>
+      <td >\c<i>X</i></td>
+      <td >Onde X é um caractere pertencente ao conjunto A-Z. Encontra correspondência de um caractere de controle em uma string.<br />Por exemplo, /\cM/ encontra correspondente control-M em uma string.</td>
     </tr>
     <tr>
-        <td class="tg-dzk6">\d</td>
-        <td class="tg-buh4">Encontra correspondência com um número. Equivalente a [0-9].</td>
+        <td >\d</td>
+        <td >Encontra correspondência com um número. Equivalente a [0-9].</td>
     </tr>
     <tr>
-        <td class="tg-dzk6">\f</td>
-        <td class="tg-buh4">Encontra correspondência com um caractere de escape avanço de página.</td>
+        <td >\f</td>
+        <td >Encontra correspondência com um caractere de escape avanço de página.</td>
     </tr>
     <tr>
-        <td class="tg-baqh">\n</td>
-        <td class="tg-0lax">Encontra correspondência com um caractere de escape quebra de linha.</td>
+        <td >\n</td>
+        <td >Encontra correspondência com um caractere de escape quebra de linha.</td>
     </tr>
     <tr>
-        <td class="tg-dzk6">\r</td>
-        <td class="tg-buh4">Encontra correspondência com um caractere de escape retorno de carro.</td>
+        <td >\r</td>
+        <td >Encontra correspondência com um caractere de escape retorno de carro.</td>
     </tr>
     <tr>
-        <td class="tg-baqh">\s</td>
-        <td class="tg-0lax">Encontra correspondência com um único caractere de espaço em branco, espaço, tabulação, avanço de página, quebra de linha.</td>
+        <td >\s</td>
+        <td >Encontra correspondência com um único caractere de espaço em branco, espaço, tabulação, avanço de página, quebra de linha.</td>
     </tr>
     <tr>
-        <td class="tg-baqh">\t</td>
-        <td class="tg-0lax">Encontra correspondência em uma tabulação.</td>
+        <td >\t</td>
+        <td >Encontra correspondência em uma tabulação.</td>
     </tr>
     <tr>
-        <td class="tg-dzk6">\v</td>
-        <td class="tg-buh4">Encontra correspondência em uma tabulação vertical.</td>
+        <td >\v</td>
+        <td >Encontra correspondência em uma tabulação vertical.</td>
     </tr>
     <tr>
-        <td class="tg-baqh">\w</td>
-        <td class="tg-0lax">Encontra correspondência de qualquer caractere alfanumérico incluindo underline. Equivalente a [A-Za-z0-9_].</td>
+        <td >\w</td>
+        <td >Encontra correspondência de qualquer caractere alfanumérico incluindo underline. Equivalente a [A-Za-z0-9_].</td>
     </tr>
     <tr>
-        <td class="tg-dzk6">\0</td>
-        <td class="tg-buh4">Encontra correspondência em um caractere NULL. Não adicione outro número após o zero, pois \0<digitos> é um escape para número octal.</td>
+        <td >\0</td>
+        <td >Encontra correspondência em um caractere NULL. Não adicione outro número após o zero, pois \0<digitos> é um escape para número octal.</td>
     </tr>
     <tr>
-        <td class="tg-baqh">\x<i>hh</i></td>
-        <td class="tg-0lax">Encontra correspondência com o código hh (dois valores hexadecimal).</td>
+        <td >\x<i>hh</i></td>
+        <td >Encontra correspondência com o código hh (dois valores hexadecimal).</td>
     </tr>
     <tr>
-        <td class="tg-dzk6">\u{hhhh}</td>
-        <td class="tg-buh4">Encontra correspondência com o valor Unicode hhhh (dígitos hexadecimais).</td>
+        <td >\u{hhhh}</td>
+        <td >Encontra correspondência com o valor Unicode hhhh (dígitos hexadecimais).</td>
     </tr>
     <tr>
-        <td class="tg-baqh">\p{UnicodeProperty}</td>
-        <td class="tg-0lax"></td>
+        <td >\p{UnicodeProperty}</td>
+        <td ></td>
     </tr>
   </tbody>
 </table>
@@ -606,33 +539,33 @@ São átomos representados por uma barra invertida `\` seguida de uma letra qual
 
 Geralmente um caractere `barra-LETRA` é a negação de um `barra-letra`. Por exemplo `/\D/` é a negação de `/\d/`, casando assim qualquer caractere exeto números.
 
-<table class="tg">
+<table >
   <thead>
     <tr>
-      <th class="tg-f8tx">Metacaractere</th>
-      <th class="tg-096r">Função</th>
+      <th >Metacaractere</th>
+      <th >Função</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="tg-dzk6">\B</td>
-      <td class="tg-buh4">Pesquisa correspondência  que não seja em uma fronteira de caractere. Para a correspondência é associada uma posição onde o caractere anterior e o próximo tem as mesmas características: ambos são caractere/palavra, ou ambos não sejam caractere/palavra. O início e o fim de uma string não considerados como não caractere/palavra.</td>
+      <td >\B</td>
+      <td >Pesquisa correspondência  que não seja em uma fronteira de caractere. Para a correspondência é associada uma posição onde o caractere anterior e o próximo tem as mesmas características: ambos são caractere/palavra, ou ambos não sejam caractere/palavra. O início e o fim de uma string não considerados como não caractere/palavra.</td>
     </tr>
     <tr>
-      <td class="tg-baqh">\D</td>
-      <td class="tg-0lax">Encontra correspondência com um caractere que não seja número. Equivalente a [^0-9].</td>
+      <td >\D</td>
+      <td >Encontra correspondência com um caractere que não seja número. Equivalente a [^0-9].</td>
     </tr>
     <tr>
-      <td class="tg-dzk6">\S</td>
-      <td class="tg-buh4">Encontra correspondência em um único caractere que não seja espaço em branco.</td>
+      <td >\S</td>
+      <td >Encontra correspondência em um único caractere que não seja espaço em branco.</td>
     </tr>
     <tr>
-      <td class="tg-dzk6">\W</td>
-      <td class="tg-buh4">Encontra correspondência em um não caractere. Equivalente a [^A-Za-z0-9_].</td>
+      <td >\W</td>
+      <td >Encontra correspondência em um não caractere. Equivalente a [^A-Za-z0-9_].</td>
     </tr>
     <tr>
-      <td class="tg-dzk6">\P{UnicodeProperty}</td>
-      <td class="tg-buh4"></td>
+      <td >\P{UnicodeProperty}</td>
+      <td ></td>
     </tr>
 
   </tbody>
@@ -691,44 +624,44 @@ console.log(cleanStatement);
 
 Servem para mudar o comportamento padrão de uma expressão, o modificador pode ser uma ou mais letras, sendo que cada letra possui uma funcionalidade diferente.
 
-<table class="tg">
+<table >
   <thead>
     <tr>
-      <th class="tg-f8tx">Metacaractere</th>
-      <th class="tg-096r">Nome</th>
-      <th class="tg-096r">Função</th>
+      <th >Metacaractere</th>
+      <th >Nome</th>
+      <th >Função</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="tg-dzk6">g</td>
-      <td class="tg-buh4">global</td>
-      <td class="tg-buh4">Procura todas as ocorrências da expressão no texto, ao invés de parar na primeira ocorrência</td>
+      <td >g</td>
+      <td >global</td>
+      <td >Procura todas as ocorrências da expressão no texto, ao invés de parar na primeira ocorrência</td>
     </tr>
     <tr>
-      <td class="tg-baqh">m</td>
-      <td class="tg-0lax">multi line</td>
-      <td class="tg-0lax">Procura por ocorrências em múltiplas linhas</td>
+      <td >m</td>
+      <td >multi line</td>
+      <td >Procura por ocorrências em múltiplas linhas</td>
     </tr>
     <tr>
-      <td class="tg-dzk6">i</td>
-      <td class="tg-buh4">insensitive</td>
-      <td class="tg-buh4">Não leva em consideração maiúsculas e minúsculas (case-insensitive)</td>
+      <td >i</td>
+      <td >insensitive</td>
+      <td >Não leva em consideração maiúsculas e minúsculas (case-insensitive)</td>
     </tr>
     <tr>
-      <td class="tg-baqh">y</td>
-      <td class="tg-0lax">sticky</td>
-      <td class="tg-0lax">Executa a correspondência fixa no texto de destino, ancorando no início do padrão ou no final da correspondência mais recente</td>
+      <td >y</td>
+      <td >sticky</td>
+      <td >Executa a correspondência fixa no texto de destino, ancorando no início do padrão ou no final da correspondência mais recente</td>
     </tr>
     <tr>
-      <td class="tg-dzk6">u</td>
-      <td class="tg-buh4">unicode</td>
-      <td class="tg-buh4">Trata o padrão como uma sequência de código unicode</td>
+      <td >u</td>
+      <td >unicode</td>
+      <td >Trata o padrão como uma sequência de código unicode</td>
     </tr>
     <tr>
-      <td class="tg-baqh">s</td>
-      <td class="tg-0lax">single line</td>
-      <td class="tg-0lax">Faz o metacaractere . ( ponto ) casar com o caracter \n ( nova linha )</td>
+      <td >s</td>
+      <td >single line</td>
+      <td >Faz o metacaractere . ( ponto ) casar com o caracter \n ( nova linha )</td>
     </tr>
   </tbody>
 </table>
